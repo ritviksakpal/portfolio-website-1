@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout - 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><a href="/">Ritvik Sakpal</a></div>
+    </nav>
+    <ul class="menu">
+      <li><a href="/work">WORK</a></li>
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/contact" class="active">CONTACT</a></li>
+    </ul>
+    <div class="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="contact">
+      <form action="" method="POST">
+        <input
+          class="fname"
+          type="text"
+          placeholder="First Name*"
+          name="fname"
+          id=""
+        />
+        <input
+          class="lname"
+          type="text"
+          placeholder="Last Name*"
+          name="lname"
+          id=""
+        />
+        <input
+          class="phone"
+          type="tel"
+          placeholder="Contact No"
+          name="phone"
+          id=""
+        />
+        <input
+          class="email"
+          type="email"
+          placeholder="email*"
+          name="email"
+          id=""
+        />
+        <textarea
+          class="message"
+          id="message"
+          type="text"
+          name="message"
+          placeholder="Message"
+        ></textarea>
+        <button class="submit" type="submit">SUBMIT</button>
+        <div class="status"></div>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Copyright &copy; 2020 Ritvik Sakpal - Designed and Developed By
+        <span class="span"
+          ><a href="#" class="footername">RitvikSakpal</a></span
+        >
+      </p>
+    </footer>
+    <script src="/burger.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
